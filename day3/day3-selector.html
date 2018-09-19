@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!--需求，就是要把王思聪选出来-->
+    <style>
+        div p {/*后代选择器*/
+            color: pink;
+        }
+        ul li > a {/*  > 指的是亲儿子，如果不加包括里面的所有a标签*/
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <div>王者荣耀</div>
+    <div>王者荣耀</div>
+    <div>王者荣耀</div>
+    <div>
+        <p>王思聪</p>
+    </div>
+    <div>
+        <p>王思聪</p>
+    </div>
+    <p>王者荣耀</p>
+    <p>王者荣耀</p>
+
+    <ul>
+        <li>
+            <a href="#">一级菜单</a>
+            <div>
+                <a href="#">二级菜单</a>
+                <a href="#">二级菜单</a>
+                <a href="#">二级菜单</a>
+            </div>
+        </li>
+    </ul>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .father {
+            width: 500px;
+            height: 500px;
+            background-color: pink;
+            /*border: 1px solid #000;!*解决办法一：给父类加一个外边框*!*/
+            /*padding-top: 1px;!*也是解决办法之一，加padding*!*/
+
+            overflow: hidden;/*解决办法二*/
+        }
+        .son {
+            width: 200px;
+            height: 200px;
+            background-color: purple;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="father">
+        <div class="son"></div>
+    </div>
+</body>
+</html>
