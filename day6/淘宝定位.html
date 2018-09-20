@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        div {
+            width: 520px;
+            height: 280px;
+            background-color: pink;
+            margin: 50px auto 0;
+            position: relative;
+        }
+        div .left {
+            position: absolute;
+            left: 0;
+            top: 50%;
+            margin-top: -18px;
+        }
+        div .left:hover {
+            opacity: 0.5;
+            cursor: pointer;
+        }
+        div .right {
+            position: absolute;
+            right: 0;
+            top: 50%;
+            margin-top: -18px;
+        }
+        div .right:hover {
+            opacity: 0.5;
+            cursor: pointer;
+        }
+        div ul {
+            list-style: none;
+            width: 160px;
+            height: 20px;
+            background-color: rgba(255,255,255,.3);
+            position: absolute;
+            bottom: 10px;
+            left: 50%;
+            margin-left: -80px;
+            border-radius: 10px;
+        }
+        div ul li {
+            float: left;
+            width: 10px;
+            height: 10px;
+            margin: 5px 15px 0 15px;
+            background-color: black;
+            line-height: 20px;
+            border-radius: 10px;
+        }
+        div ul li:hover {
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <img src="images/tb.jpg" alt="">
+        <img class="left" src="images/left.png" alt="">
+        <img class="right" src="images/right.png" alt="">
+        <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+</body>
+</html>

@@ -42,3 +42,9 @@ body {
 .nav ul li a:hover {
     color: #2288f6;
 }
+
+.banner {
+    height: 620px;
+    background: url(../image/banner.jpg) no-repeat center;
+    margin: auto;
+}
